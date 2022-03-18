@@ -1,32 +1,164 @@
+@charset "UTF-8";
 * {
-    padding: 2px;
+  padding: 2px;
 }
 
-body{
-    background-color: #e9e9e9;
+body {
+  background-color: #e9e9e9;
 }
 
-
-.center{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
-.aside{
-    width: 250px;
+.aside {
+  width: 250px;
 }
 
-.dev-color{
-    color: rgb(57, 71, 217);
+.dev-color {
+  color: #3947d9;
 }
 
-.dev-community{
-    font-family: "Roboto", sans-serif;
-    background-color: white;
-
-    /* text-decoration: none; quita decoradoes a los li*/
+.dev-community {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  /* text-decoration: none; quita decoradoes a los li*/
 }
 
+.header {
+  background-color: white;
+  border: 2px solid grey;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  justify-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
 
+/* botonesy barra de header */
+#botonesaccess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  margin-top: auto;
+  padding: 0 20px;
+}
+
+#botoncreateaccount {
+  color: #4E57EF;
+  border: 2px solid #4E57EF;
+  border-radius: 5px;
+  width: auto;
+  height: 20%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#logodevto {
+  width: auto;
+  height: 90%;
+  padding: 5px;
+}
+
+#botonlogin {
+  color: grey;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#navbar {
+  border: 2px solid grey;
+  border-radius: 5px;
+  height: 90%;
+  width: 300%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10%;
+}
+
+#lupa {
+  border: 2px solid grey;
+  background-color: transparent;
+  height: 50%;
+  width: auto;
+  padding: 10px;
+  margin-left: auto;
+}
+
+/* Aquí empieza el estilizado del footer */
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 500px;
+}
+
+.footsection {
+  width: 100%;
+  background-color: grey;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fottxt {
+  color: #4E57EF;
+}
+
+main {
+  width: 1000px;
+}
+
+.aside2 {
+  width: 250px;
+  border-color: black;
+}
+
+.p {
+  border-radius: 0%;
+}
+/*# sourceMappingURL=styles.css.map */
