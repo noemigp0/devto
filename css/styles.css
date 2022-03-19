@@ -38,7 +38,7 @@ body {
   background-color: white;
   border: 2px solid grey;
   width: 100%;
-  height: 100px;
+  height: 50px;
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -108,11 +108,18 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 10%;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
 }
 
 #lupa {
-  border: 2px solid grey;
   background-color: transparent;
   height: 50%;
   width: auto;
@@ -153,10 +160,63 @@ main {
   width: 1000px;
 }
 
-.aside2 {
-  width: 250px;
-  border-color: black;
+.aside2{
+  width: 200px;
+  height: auto;
+  border-color: 2px solid #000;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+
 }
+#titartaside2{
+  color: black;
+  font: bold;
+  font-weight: 900;
+  font-size: larger;
+  margin: 5px 0px;
+}
+.artaside{
+  width: auto;
+  padding: 10px;
+  border: 1px solid rgba(211, 211, 211, 0.322);
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  
+}
+#imgaside2-1{
+  width: 100%;
+  height: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+#imgaside2-1-1{
+  width: 100%;
+}
+#syp{
+  background-color: #4E57EF;
+  color: white;
+  border: 1px solid #4E57EF;
+  border-radius: 10px;
+  margin: 10px;
+  height: 5%;
+}
+#sap{
+  background-color: lightgrey;
+  color: #000;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 10px;
+  height: 5%;
+}
+
 
 .p {
   border-radius: 0%;
