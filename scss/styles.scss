@@ -127,11 +127,12 @@ ul{
 }
 /* Aquí empieza el estilizado del footer */
 .footer{
+    width: 100%;
     display: flex;
     
 }
 .footsection{
-    width: 70%;
+    width: 100%;
     background-color:rgba(128, 128, 128, 0.486);
     padding: 10px;
     display: flex;
@@ -142,7 +143,7 @@ ul{
 }
 .fottxt{
     color: #4E57EF;
-    border: 2px solid red;
+    ;
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
 }
@@ -155,19 +156,61 @@ main{
 
 
 .aside2{
-    width: 400px;
+    width: 200px;
+    height: auto;
     border-color: 2px solid #000;
     background-color: white;
-
-}
-.artaside{
+    display: flex;
+    flex-direction: column;
+  
+  }
+  #titartaside2{
+    color: black;
+    font: bold;
+    font-weight: 900;
+    font-size: larger;
+    margin: 5px 0px;
+  }
+  .artaside{
     width: auto;
     padding: 10px;
+    border: 1px solid rgba(211, 211, 211, 0.322);
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
     
-}
-#imgaside2-1{
-    width:90%;
-}
+  }
+  #imgaside2-1{
+    width: 100%;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+  }
+  #imgaside2-1-1{
+    width: 100%;
+  }
+  #syp{
+    background-color: #4E57EF;
+    color: white;
+    border: 1px solid #4E57EF;
+    border-radius: 10px;
+    margin: 10px;
+    height: 5%;
+  }
+  #sap{
+    background-color: lightgrey;
+    color: #000;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    margin: 10px;
+    height: 5%;
+  }
 
 
 *{
