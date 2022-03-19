@@ -125,6 +125,43 @@ ul{
     padding: 10px;
     margin-left: auto;
 }
+
+/*Lugar para el main*/
+
+.contmain{
+
+    background-color: rgb(245, 245, 245);
+    font-family: sans-serif;
+    text-align: left;
+    padding: 1px; 
+
+    nav {
+        background-color: rgb(245, 245, 245);
+        font-family: sans-serif;
+        text-align: left;
+        padding: 1px;
+         }
+        
+        ul {
+
+            display: inline-flex;
+            align-items: flex-start;
+            text-align: right;
+            text-decoration-style: none;
+            padding: 5px;
+
+
+        }
+
+
+}
+
+
+
+
+
+
+
 /* Aquí empieza el estilizado del footer */
 .footer{
     width: 100%;

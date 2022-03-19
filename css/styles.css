@@ -151,6 +151,34 @@ ul {
   margin-left: auto;
 }
 
+/*Lugar para el main*/
+.contmain {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 1px;
+}
+
+.contmain nav {
+  background-color: whitesmoke;
+  font-family: sans-serif;
+  text-align: left;
+  padding: 1px;
+}
+
+.contmain ul {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: right;
+  -webkit-text-decoration-style: none;
+          text-decoration-style: none;
+  padding: 5px;
+}
+
 /* Aquí empieza el estilizado del footer */
 .footer {
   width: 100%;
