@@ -25,8 +25,33 @@ body{
 .dev-community{
     font-family: "Roboto", sans-serif;
     background-color: white;
-
+    border-radius: 3%;
+    text-decoration: none; 
     /* text-decoration: none; quita decoradoes a los li*/
+}
+
+.li a {
+    text-decoration: none;    
+}
+
+.socialMedia{
+    display: inline;
+}
+
+.overflow{
+    overflow: scroll;
+    width: 150px;
+    height: 300px;
+}
+
+
+
+ul{
+    list-style-type: none;
+}
+
+.icon{
+    width: 15px;
 }
 
 
